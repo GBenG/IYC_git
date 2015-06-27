@@ -241,18 +241,14 @@ else {header("Location: ap_error.html"); exit();}
   
 /* Соединяемся с базой данных */
 $hostname = "localhost"; // название/путь сервера, с MySQL 
-$username = "u5088_sps"; // имя пользователя (в Denwer`е по умолчанию "root") 
+$username = "u158376855_sps"; // имя пользователя (в Denwer`е по умолчанию "root") 
 $password = "u5088_sps"; // пароль пользователя (в Denwer`е по умолчанию пароль отсутствует, этот параметр можно оставить пустым) 
-$dbName = "u5088_contracts"; // название базы данных 
-  
-/* Таблица MySQL, в которой хранятся данные */
+$dbName = "u158376855_iyc"; // название базы данных /* Таблица MySQL, в которой хранятся данные */
 $table = "users"; 
   
-/* Создаем соединение */
-mysql_connect($hostname, $username, $password) or die ("Не могу создать соединение"); 
-  
-/* Выбираем базу данных. Если произойдет ошибка - вывести ее */
-mysql_select_db($dbName) or die (mysql_error()); 
+# Соединямся с БД
+$link = mysqli_connect("localhost", "u158376855_sps", "u5088_sps") or die( mysql_error() );
+mysqli_select_db($link, "u158376855_iyc");
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
 /* Если была нажата кнопка редактирования, вносим изменения */
@@ -266,8 +262,8 @@ if(isset($_POST['submit_edit']))
 	$mes = $_POST['situation'];
 	$n = $_POST['update'];
 
-//	mysql_query("UPDATE `u5088_contracts`.`test_table` SET `message` = '".$a."' WHERE `test_table`.`id` =1");
-	mysql_query("UPDATE `u5088_contracts`.`users` SET `name` = '".$nem."', `surname` = '".$sur."', `fname` = '".$eml."',
+//	mysqli_query($link, "UPDATE `u5088_contracts`.`test_table` SET `message` = '".$a."' WHERE `test_table`.`id` =1");
+	mysqli_query($link, "UPDATE `u5088_contracts`.`users` SET `name` = '".$nem."', `surname` = '".$sur."', `fname` = '".$eml."',
 `dnumber` = '".$tem."',`situation` = '".$mes."' WHERE `users`.`user_id` ='".$n."'");
 
 }
@@ -276,7 +272,7 @@ if(isset($_POST['submit_edit']))
 /* Заносим в переменную $res всю базу данных */
 $query = "SELECT * FROM $table"; 
 /* Выполняем запрос. Если произойдет ошибка - вывести ее. */
-$res = mysql_query($query) or die(mysql_error()); 
+$res = mysqli_query($link, $query) or die(mysql_error()); 
 /* Узнаем количество записей в базе данных */
 $row = mysql_num_rows($res); 
 
@@ -284,7 +280,7 @@ if (isset($_COOKIE['id']) and isset($_COOKIE['hash']))
 {     
  
 /* Цикл вывода данных из базы конкретных полей */
-while ($row = mysql_fetch_array($res)) { 
+while ($row = mysqli_fetch_array($res)) { 
     echo "<form action=\"apanel01.php\" method=\"post\" name=\"edit_form\">\n"; 
     echo "<input type=\"hidden\" name=\"update\" value=\"".$row["user_id"]."\" />\n"; 
     echo "<table border=0 cellspacing=6 cellpadding=0 width=100% align=left>\n";
@@ -316,9 +312,7 @@ while ($row = mysql_fetch_array($res)) {
 	}
   
 /* Закрываем соединение */
-mysql_close(); 
-  
-/* Выводим ссылку возврата 
+mysqli_close($link); /* Выводим ссылку возврата 
 echo ("<div style=\"text-align: center; margin-top: 10px;\"><a href=\"index.html\">Вернуться назад</a></div>"); 
 */  
 ?>
@@ -342,18 +336,14 @@ echo ("<div style=\"text-align: center; margin-top: 10px;\"><a href=\"index.html
   
 /* Соединяемся с базой данных */
 $hostname = "localhost"; // название/путь сервера, с MySQL 
-$username = "u5088_sps"; // имя пользователя (в Denwer`е по умолчанию "root") 
+$username = "u158376855_sps"; // имя пользователя (в Denwer`е по умолчанию "root") 
 $password = "u5088_sps"; // пароль пользователя (в Denwer`е по умолчанию пароль отсутствует, этот параметр можно оставить пустым) 
-$dbName = "u5088_contracts"; // название базы данных 
-  
-/* Таблица MySQL, в которой хранятся данные */
+$dbName = "u158376855_iyc"; // название базы данных /* Таблица MySQL, в которой хранятся данные */
 $table = "users"; 
   
-/* Создаем соединение */
-mysql_connect($hostname, $username, $password) or die ("Не могу создать соединение"); 
-  
-/* Выбираем базу данных. Если произойдет ошибка - вывести ее */
-mysql_select_db($dbName) or die (mysql_error()); 
+# Соединямся с БД
+$link = mysqli_connect("localhost", "u158376855_sps", "u5088_sps") or die( mysql_error() );
+mysqli_select_db($link, "u158376855_iyc");
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
 /* Если была нажата кнопка редактирования, вносим изменения */
@@ -367,21 +357,21 @@ if(isset($_POST['submit_del']))
 	$mes = $_POST['situation'];
 	$n = $_POST['update'];
 
-	mysql_query("DELETE FROM `u5088_contracts`.`users` WHERE `users`.`user_id` ='".$n."'");
+	mysqli_query($link, "DELETE FROM `u5088_contracts`.`users` WHERE `users`.`user_id` ='".$n."'");
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
 /* Заносим в переменную $res всю базу данных */
 $query = "SELECT * FROM $table"; 
 /* Выполняем запрос. Если произойдет ошибка - вывести ее. */
-$res = mysql_query($query) or die(mysql_error()); 
+$res = mysqli_query($link, $query) or die(mysql_error()); 
 /* Узнаем количество записей в базе данных */
 $row = mysql_num_rows($res); 
   
  if (isset($_COOKIE['id']) and isset($_COOKIE['hash']))
 {     
 /* Цикл вывода данных из базы конкретных полей */
-while ($row = mysql_fetch_array($res)) { 
+while ($row = mysqli_fetch_array($res)) { 
     echo "<br><form action=\"apanel01.php\" method=\"post\" name=\"edit_form\">\n"; 
     echo "<input type=\"hidden\" name=\"update\" value=\"".$row["user_id"]."\" />\n"; 
     echo "<table border=0 cellspacing=6 cellpadding=0 align=left>\n";
@@ -395,9 +385,7 @@ while ($row = mysql_fetch_array($res)) {
 } 
   }
 /* Закрываем соединение */
-mysql_close(); 
-  
-/* Выводим ссылку возврата 
+mysqli_close($link); /* Выводим ссылку возврата 
 echo ("<div style=\"text-align: center; margin-top: 10px;\"><a href=\"index.html\">Вернуться назад</a></div>"); 
 */  
 ?>
@@ -422,18 +410,14 @@ echo ("<div style=\"text-align: center; margin-top: 10px;\"><a href=\"index.html
   
 /* Соединяемся с базой данных */
 $hostname = "localhost"; // название/путь сервера, с MySQL 
-$username = "u5088_sps"; // имя пользователя (в Denwer`е по умолчанию "root") 
+$username = "u158376855_sps"; // имя пользователя (в Denwer`е по умолчанию "root") 
 $password = "u5088_sps"; // пароль пользователя (в Denwer`е по умолчанию пароль отсутствует, этот параметр можно оставить пустым) 
-$dbName = "u5088_contracts"; // название базы данных 
-  
-/* Таблица MySQL, в которой хранятся данные */
+$dbName = "u158376855_iyc"; // название базы данных /* Таблица MySQL, в которой хранятся данные */
 $table = "premod"; 
   
-/* Создаем соединение */
-mysql_connect($hostname, $username, $password) or die ("Не могу создать соединение"); 
-  
-/* Выбираем базу данных. Если произойдет ошибка - вывести ее */
-mysql_select_db($dbName) or die (mysql_error()); 
+# Соединямся с БД
+$link = mysqli_connect("localhost", "u158376855_sps", "u5088_sps") or die( mysql_error() );
+mysqli_select_db($link, "u158376855_iyc");
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
 /* Если была нажата кнопка редактирования, вносим изменения */
@@ -447,8 +431,8 @@ if(isset($_POST['qw_submit']))
 	$m = $_POST['upoch'];
 	
 	
-	mysql_query("INSERT INTO `u5088_contracts`.`postfaq` (`id`, `fio`, `mmessage`, `otvet`) VALUES (NULL, '".$qfio."', '".$qmmessage."', '".$qotvet."')");
-	mysql_query("DELETE FROM `u5088_contracts`.`premod` WHERE `premod`.`id` ='".$m."'");
+	mysqli_query($link, "INSERT INTO `u5088_contracts`.`postfaq` (`id`, `fio`, `mmessage`, `otvet`) VALUES (NULL, '".$qfio."', '".$qmmessage."', '".$qotvet."')");
+	mysqli_query($link, "DELETE FROM `u5088_contracts`.`premod` WHERE `premod`.`id` ='".$m."'");
 
 }
 if(isset($_POST['qw_submit_del']))
@@ -456,14 +440,14 @@ if(isset($_POST['qw_submit_del']))
 
 	$m = $_POST['upoch'];
 	
-	mysql_query("DELETE FROM `u5088_contracts`.`premod` WHERE `premod`.`id` ='".$m."'");
+	mysqli_query($link, "DELETE FROM `u5088_contracts`.`premod` WHERE `premod`.`id` ='".$m."'");
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
 /* Заносим в переменную $res всю базу данных */
 $query = "SELECT * FROM $table"; 
 /* Выполняем запрос. Если произойдет ошибка - вывести ее. */
-$res = mysql_query($query) or die(mysql_error()); 
+$res = mysqli_query($link, $query) or die(mysql_error()); 
 /* Узнаем количество записей в базе данных */
 $row = mysql_num_rows($res); 
   
@@ -471,7 +455,7 @@ $row = mysql_num_rows($res);
 {     
  
 /* Цикл вывода данных из базы конкретных полей */
-while ($row = mysql_fetch_array($res)) { 
+while ($row = mysqli_fetch_array($res)) { 
     echo "<form action=\"apanel01.php\" method=\"post\" name=\"edit_form\">\n"; 
     echo "<input type=\"hidden\" name=\"upoch\" value=\"".$row["id"]."\" />\n"; 
     echo "<table border=0 cellspacing=6 cellpadding=0 width=100% align=left>\n";
@@ -496,10 +480,7 @@ while ($row = mysql_fetch_array($res)) {
 } 
   }
 /* Закрываем соединение */
-mysql_close(); 
-  
-
-?>
+mysqli_close($link); ?>
 
 <p align="left"><strong>Обработанные вопросы</strong><br><br>
 
@@ -510,20 +491,14 @@ mysql_close();
   
 /* Соединяемся с базой данных */
 $hostname = "localhost"; // название/путь сервера, с MySQL 
-$username = "u5088_sps"; // имя пользователя (в Denwer`е по умолчанию "root") 
+$username = "u158376855_sps"; // имя пользователя (в Denwer`е по умолчанию "root") 
 $password = "u5088_sps"; // пароль пользователя (в Denwer`е по умолчанию пароль отсутствует, этот параметр можно оставить пустым) 
-$dbName = "u5088_contracts"; // название базы данных 
-  
-/* Таблица MySQL, в которой хранятся данные */
+$dbName = "u158376855_iyc"; // название базы данных /* Таблица MySQL, в которой хранятся данные */
 $table = "postfaq"; 
   
-/* Создаем соединение */
-mysql_connect($hostname, $username, $password) or die ("Не могу создать соединение"); 
-  
-/* Выбираем базу данных. Если произойдет ошибка - вывести ее */
-mysql_select_db($dbName) or die (mysql_error()); 
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+# Соединямся с БД
+$link = mysqli_connect("localhost", "u158376855_sps", "u5088_sps") or die( mysql_error() );
+mysqli_select_db($link, "u158376855_iyc");///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
 /* Если была нажата кнопка редактирования, вносим изменения */
 if(isset($_POST['fqw_submit']))
 {
@@ -534,7 +509,7 @@ if(isset($_POST['fqw_submit']))
 	$fqotvet = $_POST['fqw_otvet'];
 	$fm = $_POST['fupoch'];
 	
-mysql_query("UPDATE `u5088_contracts`.`postfaq` SET `fio` = '".$fqfio."', `mmessage` = '".$fqmmessage."', `otvet` = '".$fqotvet."' WHERE `postfaq`.`id` ='".$fm."'");
+mysqli_query($link, "UPDATE `u5088_contracts`.`postfaq` SET `fio` = '".$fqfio."', `mmessage` = '".$fqmmessage."', `otvet` = '".$fqotvet."' WHERE `postfaq`.`id` ='".$fm."'");
 	$url = 'http://www.iyc.com.ua/apanel01.php'; 
 	header("Location: $url");	
 }
@@ -543,21 +518,21 @@ if(isset($_POST['fqw_submit_del']))
 
 	$fm = $_POST['fupoch'];
 	
-	mysql_query("DELETE FROM `u5088_contracts`.`postfaq` WHERE `postfaq`.`id` ='".$fm."'");
+	mysqli_query($link, "DELETE FROM `u5088_contracts`.`postfaq` WHERE `postfaq`.`id` ='".$fm."'");
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
 /* Заносим в переменную $res всю базу данных */
 $query = "SELECT * FROM $table"; 
 /* Выполняем запрос. Если произойдет ошибка - вывести ее. */
-$res = mysql_query($query) or die(mysql_error()); 
+$res = mysqli_query($link, $query) or die(mysql_error()); 
 /* Узнаем количество записей в базе данных */
 $row = mysql_num_rows($res); 
   
  if (isset($_COOKIE['id']) and isset($_COOKIE['hash']))
 {     
 /* Цикл вывода данных из базы конкретных полей */
-while ($row = mysql_fetch_array($res)) { 
+while ($row = mysqli_fetch_array($res)) { 
     echo "<form action=\"apanel01.php\" method=\"post\" name=\"edit_form\">\n"; 
     echo "<input type=\"hidden\" name=\"fupoch\" value=\"".$row["id"]."\" />\n"; 
     echo "<table border=0 cellspacing=6 cellpadding=0 width=100% align=left>\n";
@@ -582,7 +557,7 @@ while ($row = mysql_fetch_array($res)) {
 } 
   }
 /* Закрываем соединение */
-mysql_close(); 
+mysqli_close($link); 
   
 
 ?>

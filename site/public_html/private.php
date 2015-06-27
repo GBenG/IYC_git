@@ -20,7 +20,7 @@ mysqli_select_db($link, "u158376855_iyc");
 if(isset($_POST['submit']))
 {
     # Вытаскиваем из БД запись, у которой логин равняеться введенному
-    $query = mysql_query("SELECT user_id, user_password FROM users WHERE user_login='".mysql_real_escape_string($_POST['login'])."' LIMIT 1");
+    $query = mysqli_query($link, "SELECT user_id, user_password FROM users WHERE user_login='".mysql_real_escape_string($_POST['login'])."' LIMIT 1");
     $data = mysql_fetch_assoc($query);
     
     # Сравниваем пароли
@@ -38,7 +38,7 @@ if(isset($_POST['submit']))
         }
         
         # Записываем в БД новый хеш авторизации и IP
-        mysql_query("UPDATE users SET user_hash='".$hash."' ".$insip." WHERE user_id='".$data['user_id']."'");
+        mysqli_query($link, "UPDATE users SET user_hash='".$hash."' ".$insip." WHERE user_id='".$data['user_id']."'");
         
         # Ставим куки
         setcookie("id", $data['user_id'], time()+60*60*24*30);

@@ -25,7 +25,7 @@ if(isset($_POST['submit_q']))
 		$tmess = $_POST['txt_mess'];
         
        
-        mysql_query("INSERT INTO premod SET fio='".$tfio."', mmessage='".$tmess."'");
+        mysqli_query($link, "INSERT INTO premod SET fio='".$tfio."', mmessage='".$tmess."'");
         header("Location: qweok.html"); exit();
     }
     else
@@ -198,31 +198,25 @@ if(isset($_POST['submit_q']))
   
 /* Соединяемся с базой данных */
 $hostname = "localhost"; // название/путь сервера, с MySQL 
-$username = "u5088_sps"; // имя пользователя (в Denwer`е по умолчанию "root") 
+$username = "u158376855_sps"; // имя пользователя (в Denwer`е по умолчанию "root") 
 $password = "u5088_sps"; // пароль пользователя (в Denwer`е по умолчанию пароль отсутствует, этот параметр можно оставить пустым) 
-$dbName = "u5088_contracts"; // название базы данных 
-  
-/* Таблица MySQL, в которой хранятся данные */
+$dbName = "u158376855_iyc"; // название базы данных /* Таблица MySQL, в которой хранятся данные */
 $table = "postfaq"; 
   
-/* Создаем соединение */
-mysql_connect($hostname, $username, $password) or die ("Не могу создать соединение"); 
-  
-/* Выбираем базу данных. Если произойдет ошибка - вывести ее */
-mysql_select_db($dbName) or die (mysql_error()); 
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
+# Соединямся с БД
+$link = mysqli_connect("localhost", "u158376855_sps", "u5088_sps") or die( mysql_error() );
+mysqli_select_db($link, "u158376855_iyc");///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
   
 /* Заносим в переменную $res всю базу данных */
 $query = "SELECT * FROM $table"; 
 /* Выполняем запрос. Если произойдет ошибка - вывести ее. */
-$res = mysql_query($query) or die(mysql_error()); 
+$res = mysqli_query($link, $query) or die(mysql_error()); 
 /* Узнаем количество записей в базе данных */
 $row = mysql_num_rows($res); 
   
  
 /* Цикл вывода данных из базы конкретных полей */
-while ($row = mysql_fetch_array($res)) { 
+while ($row = mysqli_fetch_array($res)) { 
 
     echo "<br><table border=0 cellspacing=0 cellpadding=0 align=left width=100%>\n";
 	
@@ -250,9 +244,7 @@ while ($row = mysql_fetch_array($res)) {
 } 
   
 /* Закрываем соединение */
-mysql_close(); 
-  
-/* Выводим ссылку возврата 
+mysqli_close($link); /* Выводим ссылку возврата 
 echo ("<div style=\"text-align: center; margin-top: 10px;\"><a href=\"index.html\">Вернуться назад</a></div>"); 
 */  
 ?>
