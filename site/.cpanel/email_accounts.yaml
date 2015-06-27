@@ -1,0 +1,13 @@
+--- 
+__version: '2.1'
+develop.iyc.com.ua: 
+  account_count: 0
+  accounts: {}
+
+iyc.com.ua: 
+  account_count: 0
+  accounts: {}
+
+  disk_mtime: '1324416925'
+  passwd_mtime: '1325442906'
+  quota_mtime: '1325442906'

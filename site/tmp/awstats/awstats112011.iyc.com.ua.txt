@@ -1,0 +1,545 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201111 will be lost/reset.
+# Last config file used to build this data file was /home/u5088/tmp/awstats/awstats.iyc.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2001                
+POS_TIME 2679                
+POS_VISITOR 12465               
+POS_DAY 16687               
+POS_DOMAIN 3525                
+POS_LOGIN 3858                
+POS_ROBOT 4013                
+POS_WORMS 4320                
+POS_EMAILSENDER 4451                
+POS_EMAILRECEIVER 4594                
+POS_SESSION 17275               
+POS_SIDER 17485               
+POS_FILETYPES 4729                
+POS_DOWNLOADS 5029                
+POS_OS 5177                
+POS_BROWSER 5315                
+POS_SCREENSIZE 5779                
+POS_UNKNOWNREFERER 5853                
+POS_UNKNOWNREFERERBROWSER 5968                
+POS_ORIGIN 6100                
+POS_SEREFERRALS 6246                
+POS_PAGEREFS 6414                
+POS_SEARCHWORDS 7096                
+POS_KEYWORDS 8236                
+POS_MISC 2343                
+POS_ERRORS 9316                
+POS_CLUSTER 3714                
+POS_SIDER_404 9446                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20111201000308 43 8569 39329801512086
+FirstTime 20111107093500
+LastTime 20111130220115
+LastUpdate 20111201211617 43 0 42 0 0
+TotalVisits 179                 
+TotalUnique 98                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 99                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 50 427 954044 6 33 402881
+1 6 53 114781 1 7 128113
+2 0 26 229273 2 4 47056
+3 2 26 106800 2 3 66080
+4 0 0 0 2 2 39457
+5 0 0 0 14 26 381223
+6 9 108 794582 7 17 232350
+7 5 59 540493 1 5 54656
+8 16 145 428443 2 10 119412
+9 131 660 8005569 17 99 1142166
+10 59 297 1605576 5 35 455754
+11 86 414 2814110 4 55 712073
+12 47 304 1744460 7 34 424245
+13 153 663 4288683 30 141 1571645
+14 20 155 1188231 14 35 450486
+15 79 612 2040099 11 54 611199
+16 203 1341 5822393 14 102 1194737
+17 320 2781 11331492 28 168 1995167
+18 123 1298 4735021 10 94 1218049
+19 190 2317 7994153 500 632 12503599
+20 350 1445 8375178 44 145 1671977
+21 193 953 12440754 26 129 1283319
+22 244 1886 5434258 53 214 2286513
+23 250 1854 6713752 40 196 2104972
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+ua 2239 15690 69691926
+cz 134 892 7371689
+eu 131 983 8449917
+ru 16 115 759736
+no 8 84 806307
+de 6 57 426496
+jp 2 3 196074
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 116 1521597 20111130223809 24
+bot[\s_+:,\.\;\/\\-] 23 261952 20111130150809 10
+[\s_+:,\.\;\/\\-]bot 8 135194 20111129044105 0
+no_user_agent 3 55743 20111115203750 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 608 346364 0 0
+png 668 686656 0 0
+djvu 4 11500588 0 0
+ico 508 22949808 0 0
+pdf 5 394665 0 0
+cgi 551 2009915 0 0
+txt 1 0 0 0
+swf 315 2817465 0 0
+php 1359 25498275 0 0
+html 307 4280500 0 0
+jpg 2859 10897635 0 0
+gif 10639 6320274 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/robots.txt 34 0 6668
+/docs/subscription_services.pdf 5 0 394665
+/yandex_64fe3b6eea8ca0da.txt 2 0 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 10
+macosx 52
+winlong 76
+winxp 13176
+j2me 84
+win2000 1
+java 1
+winnt 30
+Unknown 25
+linux 141
+win7 4238
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 26
+chrome12.0.712.0 77
+firefox3.6.24 428
+msie6.0 605
+firefox5.0 1034
+firefox3.5.6 59
+firefox3.6 27
+ossproxy 30
+firefox8.0 446
+safari4.0.5 52
+firefox4.0 992
+chrome15.0.874.120 1104
+firefox7.0.1 96
+firefox3.5.18 44
+opera9.80 11449
+firefox3.6.23 179
+chrome15.0.874.121 863
+msie8.0 35
+chrome13.0.782.112 47
+firefox6.0.1 27
+netscape5.0 25
+msie7.0 59
+firefox3.6.3 1
+opera9.24 53
+msie9.0 27
+Unknown 1
+chrome15.0.874.106 64
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+'Mozilla/5.0 20111116064519
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Apache-HttpClient/4.1.1_(java_1.5) 20111122105338
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1189 8645
+From1 0 0
+From2 20 20
+From3 69 69
+From4 1258 9090
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 15 15
+yandex 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 16
+http://vkontakte.ru/id9655702 26 26
+http://vkontakte.ru/feed 12 12
+http://vkontakte.ru/andrey.ishchenko 7 7
+http://vkontakte.ru/public24725682 5 5
+http://vk.com/id9655702 3 3
+http://vkontakte.ru/mail 3 3
+http://vkontakte.ru/away.php 2 2
+http://yandex.ua/yandsearch 2 2
+http://vkontakte.ru/stats 2 2
+http://vkontakte.ru/veyron007 1 1
+http://vkontakte.ru/id8305995 1 1
+http://vkontakte.ru/id20438766 1 1
+http://vkontakte.ru/id149428308 1 1
+http://vkontakte.ru/friends 1 1
+http://vkontakte.ru 1 1
+http://vkontakte.ru/ordinary_smile 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 5
+iyc.com.ua 10
+www.iyc.com.ua 7
+%d0%bd%d0%be%d1%82%d0%b0%d1%80%d1%96%d1%83%d1%81%d0%b8+%d0%bc.%d0%bf%d0%b5%d1%80%d0%b2%d0%be%d0%bc%d0%b0%d0%b9%d1%81%d1%8c%d0%ba%d0%b0+%d0%bb%d1%83%d0%b3%d0%b0%d0%bd%d1%81%d1%8c%d0%ba%d0%be%d1%97+%d0%be%d0%b1%d0%bb%d0%b0%d1%81%d1%82%d1%96 1
+%d0%b2%d1%96%d0%b4%d0%b4%d1%96%d0%bb+%d0%b4%d0%b5%d1%80%d0%b6%d0%b0%d0%b2%d0%bd%d0%be%d1%97+%d0%b2%d0%b8%d0%ba%d0%be%d0%bd%d0%b0%d0%b2%d1%87%d0%be%d1%97+%d1%81%d0%bb%d1%83%d0%b6%d0%b1%d0%b8+%d0%bb%d0%b5%d0%bd%d1%96%d0%bd%d1%81%d1%8c%d0%ba%d0%be%d0%b3%d0%be+%d1%80%d0%b0%d0%b9%d0%be%d0%bd%d0%bd%d0%be%d0%b3%d0%be+%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%96%d0%bd%d0%bd%d1%8f+%d1%8e%d1%81%d1%82%d0%b8%d1%86%d1%96%d1%97+%d0%bc.+%d0%bb%d1%83%d0%b3%d0%b0%d0%bd%d1%81%d1%8c%d0%ba%d0%b0 1
+%d0%b0%d0%b4%d1%80%d0%b5%d1%81%d0%b0+%d1%8e%d1%80%d0%b8%d0%b4%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d1%85+%d0%ba%d0%be%d0%bd%d1%81%d1%83%d0%bb%d1%8c%d1%82%d0%b0%d1%86%d0%b8%d0%b9+%d0%b2+%d0%bb%d1%83%d0%b3%d0%b0%d0%bd%d1%81%d0%ba%d0%b5 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 21
+iyc.com.ua 10
+www.iyc.com.ua 7
+%d0%b2%d0%b8%d0%ba%d0%be%d0%bd%d0%b0%d0%b2%d1%87%d0%be%d1%97 1
+%d0%bb%d1%83%d0%b3%d0%b0%d0%bd%d1%81%d1%8c%d0%ba%d0%b0 1
+%d0%b4%d0%b5%d1%80%d0%b6%d0%b0%d0%b2%d0%bd%d0%be%d1%97 1
+%d1%81%d0%bb%d1%83%d0%b6%d0%b1%d0%b8 1
+%d0%bb%d1%83%d0%b3%d0%b0%d0%bd%d1%81%d1%8c%d0%ba%d0%be%d1%97 1
+%d0%b0%d0%b4%d1%80%d0%b5%d1%81%d0%b0 1
+%d1%8e%d1%81%d1%82%d0%b8%d1%86%d1%96%d1%97 1
+%d0%bc.%d0%bf%d0%b5%d1%80%d0%b2%d0%be%d0%bc%d0%b0%d0%b9%d1%81%d1%8c%d0%ba%d0%b0 1
+%d0%bd%d0%be%d1%82%d0%b0%d1%80%d1%96%d1%83%d1%81%d0%b8 1
+%d0%bb%d0%b5%d0%bd%d1%96%d0%bd%d1%81%d1%8c%d0%ba%d0%be%d0%b3%d0%be 1
+%d0%ba%d0%be%d0%bd%d1%81%d1%83%d0%bb%d1%8c%d1%82%d0%b0%d1%86%d0%b8%d0%b9 1
+%d0%be%d0%b1%d0%bb%d0%b0%d1%81%d1%82%d1%96 1
+%d0%b2 1
+%d1%80%d0%b0%d0%b9%d0%be%d0%bd%d0%bd%d0%be%d0%b3%d0%be 1
+%d0%bb%d1%83%d0%b3%d0%b0%d0%bd%d1%81%d0%ba%d0%b5 1
+%d0%b2%d1%96%d0%b4%d0%b4%d1%96%d0%bb 1
+%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%96%d0%bd%d0%bd%d1%8f 1
+%d0%bc. 1
+%d1%8e%d1%80%d0%b8%d0%b4%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d1%85 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 652 10927924
+206 1 5250
+301 12 0
+404 1326 18189469
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 51
+/docs/images/img__43.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/reg_error.html 1 -
+/docs/images/img__51.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/robots.txt 9 -
+/docs/subscription_services.pdf 1 http://www.iyc.com.ua/jur.php
+/docs/images/free.jpg 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/docs/images/img__24.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/docs/images/map.jpg 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/docs/images/img__11.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/phprusearch/sadmin/place.gif 1 -
+/docs/images/img__49.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/www.gp.gov.ua 1 -
+/docs/images/img__59.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/images/capcha.JPG 1 -
+/docs/images/spacer.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/docs/images/img__61.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/images/img_ 1 -
+/images/i 1 -
+/docs/images/img__10.jpg 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/docs/images/img__60d.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/docs/images/img__60.gif 4 http://www.iyc.com.ua/docs/subscription_services.pdf
+/mewok.html 4 -
+/docs/images/img__05.jpg 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/docs/images/img__29.jpg 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/images/orange_extra.png 1 -
+/ju6r.php 1 -
+/aconnect.php 2 -
+/docs/images/iyc.ico 2 -
+/docs/images/img__12d.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/images/base-bg.gif 2 -
+/comments/online8.php 2 -
+/docs/css/iyc.css 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/css/style.css 5 http://www.iyc.com.ua/
+/docs/images/img__13.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/online.php 84 http://www.iyc.com.ua/private.php
+/docs/images/img__31.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/docs/images/img__38.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/docs/images/img__9.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/docs/images/img__06.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/images/Reflectivemail.jpg 1 -
+/update_data.php 2 -
+/ua/scripts/swfobject.js 1169 -
+/docs/images/img__44.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/yandex_26e093608a49f810.txt 1 -
+/apanel.php 1 -
+/index.php 1 -
+/docs/images/img__36.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/docs/images/img__12.gif 2 http://www.iyc.com.ua/docs/subscription_services.pdf
+/red.html 1 -
+/docs/images/img__04.gif 1 http://www.iyc.com.ua/docs/subscription_services.pdf
+/yandex_5d2ea2b578ce7070.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 99
+94.248.11.88 521 5132 13141430 20111128000848
+109.167.38.151 305 2519 4850580 20111121233932
+109.167.97.243 278 1345 4079126 20111117134236
+178.158.115.243 240 1505 7669215 20111118174438
+178.158.105.101 231 705 5331223 20111130152949
+109.86.128.167 156 1165 9688077 20111125172056
+109.167.86.35 136 1062 2459658 20111126002939
+195.189.45.17 72 509 1799561 20111123180751
+178.158.112.40 67 418 2543776 20111123125441
+82.207.121.50 34 252 1667172 20111130122810
+94.158.32.153 26 85 808490 20111115225954
+94.158.33.142 21 154 545957 20111117084047
+178.158.113.83 19 77 606320 20111119220745
+94.158.34.93 18 78 909408 20111118154648
+194.0.206.57 17 77 257308 20111120100012
+178.158.112.26 16 46 478576 20111116205958
+178.158.80.111 16 47 586548 20111117132014
+178.92.254.134 14 44 495890 20111120170333
+178.214.189.2 13 42 590065 20111116181842
+188.190.208.138 13 103 1128263 20111115231455
+178.95.10.46 13 42 430366 20111118122459
+94.158.34.129 12 141 1107055 20111129092531
+178.150.68.75 12 67 472674 20111116234435
+91.195.121.58 11 40 429329 20111121130500
+178.214.185.240 11 136 450830 20111123011549
+188.190.211.44 3 32 291656 20111130175723
+178.214.165.181 2 27 281031 20111128163937
+178.158.80.230 1 4 218882 20111109131019
+178.95.130.185 0 4 0 
+176.195.183.95 8 57 315989 20111129133055
+178.214.184.188 1 27 243040 20111124235949
+94.158.33.175 3 28 270054 20111122074804
+188.190.194.24 3 28 269657 20111122215735
+178.151.252.243 2 26 106472 20111122140816
+178.95.83.179 6 36 390752 20111122094948
+178.158.104.234 2 26 106800 20111128033720
+178.214.167.120 3 27 21759 20111126182434
+91.64.120.144 5 32 322999 20111115203031
+195.189.44.132 3 30 274375 20111116095615
+94.158.32.166 5 62 349178 20111117205148
+31.144.223.30 1 1 2875147 20111128193917
+92.112.133.144 2 27 296381 20111124193138
+178.218.210.233 1 1 18581 20111115203024
+94.248.37.45 3 12 233502 20111110232752
+94.158.34.96 2 28 273824 20111115181027
+82.145.211.1 4 30 296222 20111115174615
+94.248.18.184 4 31 360148 20111115180907
+195.58.249.34 1 1 2875147 20111128090940
+109.167.33.106 2 28 379696 20111121232233
+178.218.210.230 1 1 18581 20111115202944
+176.36.72.74 5 32 316525 20111115175636
+178.214.175.141 3 28 269294 20111119163210
+94.158.34.63 6 60 566193 20111115190204
+188.190.213.232 5 62 583091 20111115224601
+178.214.164.150 2 28 271810 20111116163459
+195.88.242.35 1 1 19723 20111122105338
+188.190.211.172 7 11 166734 20111121180813
+178.214.174.64 9 38 413496 20111120141309
+178.159.214.132 1 27 247767 20111115190519
+93.186.236.72 1 1 18410 20111115173524
+78.159.41.152 7 35 376806 20111119201216
+92.112.29.12 1 4 231627 20111114162843
+92.112.10.102 7 34 334851 20111120193931
+46.119.84.197 3 28 269392 20111118170848
+46.4.30.211 1 25 103497 20111116064518
+92.112.88.239 3 28 269392 20111118171207
+92.112.74.243 4 34 330982 20111115175021
+194.146.132.145 1 27 247669 20111115233358
+94.158.34.12 3 28 269439 20111119214718
+178.214.163.163 3 29 271301 20111119130458
+150.70.64.198 2 3 196074 20111128164121
+178.214.184.90 5 32 166638 20111126174955
+178.158.104.81 1 4 218882 20111107093500
+94.158.34.78 4 31 333463 20111129130605
+178.95.127.244 7 60 396803 20111115192740
+178.158.72.67 2 27 268114 20111130084814
+178.214.175.131 1 26 239874 20111115175229
+94.158.33.85 2 30 270188 20111115185424
+46.119.80.232 4 34 317652 20111117104434
+178.214.162.128 3 30 279784 20111121175326
+178.214.163.193 4 29 37615 20111116221509
+176.195.196.111 5 30 182230 20111122062230
+178.214.165.234 5 32 303604 20111118090256
+188.190.214.148 7 38 504277 20111119220224
+178.214.163.129 9 72 582052 20111120235216
+94.158.35.134 5 31 303529 20111121181340
+95.158.11.225 3 28 269472 20111117200905
+178.158.80.137 1 4 231627 20111114205429
+31.29.173.156 2 27 243107 20111121093818
+178.214.184.154 11 46 772534 20111115191803
+94.158.33.190 7 35 335674 20111130220115
+194.146.132.130 1 4 218882 20111109115344
+178.214.163.47 7 33 63745 20111118180101
+94.158.34.114 3 28 269945 20111120215811
+94.158.35.87 7 34 354557 20111120232009
+94.158.33.169 8 37 367573 20111126211831
+82.145.209.42 1 26 239977 20111115182034
+82.145.209.102 3 28 270108 20111127223552
+178.158.64.94 3 28 269396 20111116203906
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20111107 1 4 218882 1
+20111109 2 8 437764 2
+20111110 3 12 233502 1
+20111114 3 12 694881 3
+20111115 252 1719 14008922 29
+20111116 414 2344 10089542 20
+20111117 165 883 5240401 12
+20111118 156 974 5171417 16
+20111119 131 1283 4402428 13
+20111120 178 1499 7280649 16
+20111121 185 982 4693219 9
+20111122 60 402 2490002 11
+20111123 23 208 1123991 3
+20111124 17 147 935841 4
+20111125 120 879 2893733 6
+20111126 57 410 1146314 4
+20111127 520 5131 13385788 2
+20111128 133 409 8944538 10
+20111129 67 271 2402281 9
+20111130 49 247 1908050 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 18
+5mn-15mn 9
+2mn-5mn 15
+0s-30s 86
+30s-2mn 34
+15mn-30mn 6
+30mn-1h 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 39
+/cgi-sys/Count.cgi 539 2007444 1 45
+/apanel01.php 329 6458955 7 8
+/images/banner.swf 315 2817465 2 43
+/ 228 4132485 131 22
+/index.php 196 3758968 15 10
+/private.php 134 1861453 6 7
+/online6.php 121 1939046 0 0
+/fiz.php 101 2465376 3 12
+/jur.php 74 1234879 0 4
+/comments.php 70 1484850 0 0
+/about.php 50 793608 0 8
+/report.php 45 576255 0 4
+/online.php 41 665571 2 0
+/aconnect.php 36 510648 0 0
+/lug_sud.php 29 940276 2 2
+/contacts.php 28 458240 1 3
+/procur.php 25 1197742 1 1
+/mvs.php 24 485291 3 4
+/executive.php 22 431368 1 2
+/nopass.html 19 19980 0 0
+/phprusearch/sadmin/ 15 27448 0 0
+/newok.html 14 15736 0 0
+/reg_error.html 11 14553 1 0
+/apanel.php 10 98491 0 0
+/online8.php 8 116135 1 0
+/sql.php 1 567 0 0
+/phprusearch/indexer.php 1 667 0 0
+/semenovBU.djvu 4 11500588 2 2
+/phprusearch/ 6 54681 0 2
+/login.php 2 1006 0 0
+/update.php 6 17637 0 0
+/images/ 1 4272 0 0
+/qweok.html 3 1123 0 0
+/nopass2.html 7 7777 0 0
+/cgi-sys/countedit.cgi 3 215 0 0
+/cgi-sys/entropysearch.cgi 5 1210 0 0
+/check.php 6 1246 0 0
+/cgi-sys/guestbook.cgi 4 1046 0 0
+/ap_error.html 3 2445 0 0
+END_SIDER

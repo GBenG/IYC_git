@@ -1,0 +1,71 @@
+--- 
+- 
+  icon: g_home.gif
+  iconpath: images
+  id: g_home
+  item: Главная
+  link: /cpsess3076140595/frontend/rvskin/index.html
+  shortitem: Главная
+- 
+  icon: pf.gif
+  iconpath: images
+  id: pf
+  item: Аккаунт
+  link: /cpsess3076140595/frontend/rvskin/langhome.html
+  shortitem: Аккаунт
+- 
+  icon: m.gif
+  iconpath: images
+  id: m
+  item: Почта
+  link: /cpsess3076140595/frontend/rvskin/mailhome.html
+  shortitem: Почта
+- 
+  icon: l.gif
+  iconpath: images
+  id: l
+  item: Статистика и лог файлы
+  link: /cpsess3076140595/frontend/rvskin/loghome.html
+  shortitem: Лог файлы
+- 
+  icon: f.gif
+  iconpath: images
+  id: f
+  item: Файлы
+  link: /cpsess3076140595/frontend/rvskin/filehome.html
+  shortitem: Файлы
+- 
+  icon: d.gif
+  iconpath: images
+  id: d
+  item: Домены
+  link: /cpsess3076140595/frontend/rvskin/domainhome.html
+  shortitem: Домены
+- 
+  icon: b.gif
+  iconpath: images
+  id: b
+  item: Базы данных
+  link: /cpsess3076140595/frontend/rvskin/databasehome.html
+  shortitem: Базы данных
+- 
+  icon: sc.gif
+  iconpath: images
+  id: sc
+  item: Безопасность
+  link: /cpsess3076140595/frontend/rvskin/securityhome.html
+  shortitem: Безопасность
+- 
+  icon: p.gif
+  iconpath: images
+  id: p
+  item: Веб приложения и модули языков
+  link: /cpsess3076140595/frontend/rvskin/scriptshome.html
+  shortitem: Приложения
+- 
+  icon: a.gif
+  iconpath: images
+  id: a
+  item: Дополнительные инструменты
+  link: /cpsess3076140595/frontend/rvskin/advancehome.html
+  shortitem: Другое

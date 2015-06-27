@@ -1,0 +1,592 @@
+--- 
+- 
+  FeatureLists: 
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: passwd/index.html
+      FeatureName1: s_pass
+      FeatureSearchText1: "s_pass \xD0\x90\xD0\xBA\xD0\xBA\xD0\xB0\xD1\x83\xD0\xBD\xD1\x82 \xD0\x98\xD0\xB7\xD0\xBC\xD0\xB5\xD0\xBD\xD0\xB8\xD1\x82\xD1\x8C \xD0\xBF\xD0\xB0\xD1\x80\xD0\xBE\xD0\xBB\xD1\x8C password change "
+      FeatureTarget1: _top
+      FeatureText1: Изменить пароль
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: contact/index.html
+      FeatureName1: i_contact
+      FeatureSearchText1: "i_contact \xD0\x90\xD0\xBA\xD0\xBA\xD0\xB0\xD1\x83\xD0\xBD\xD1\x82 \xD0\x9A\xD0\xBE\xD0\xBD\xD1\x82\xD0\xB0\xD0\xBA\xD1\x82\xD0\xBD\xD0\xB0\xD1\x8F \xD0\xB8\xD0\xBD\xD1\x84\xD0\xBE\xD1\x80\xD0\xBC\xD0\xB0\xD1\x86\xD0\xB8\xD1\x8F email "
+      FeatureTarget1: _top
+      FeatureText1: Контактная информация
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: getstarted/index.html
+      FeatureName1: t_start
+      FeatureSearchText1: "t_start \xD0\x90\xD0\xBA\xD0\xBA\xD0\xB0\xD1\x83\xD0\xBD\xD1\x82 \xD0\x9C\xD0\xB0\xD1\x81\xD1\x82\xD0\xB5\xD1\x80 \xD0\xB1\xD1\x8B\xD1\x81\xD1\x82\xD1\x80\xD0\xBE\xD0\xB3\xD0\xBE \xD1\x81\xD1\x82\xD0\xB0\xD1\x80\xD1\x82\xD0\xB0 started "
+      FeatureTarget1: _top
+      FeatureText1: Мастер быстрого старта
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: shortcuts/index.html
+      FeatureName1: t_shortcuts
+      FeatureSearchText1: "t_shortcuts \xD0\x90\xD0\xBA\xD0\xBA\xD0\xB0\xD1\x83\xD0\xBD\xD1\x82 \xD0\xAF\xD1\x80\xD0\xBB\xD1\x8B\xD0\xBA\xD0\xB8 \xD0\xB4\xD0\xBE\xD1\x81\xD1\x82\xD1\x83\xD0\xBF\xD0\xB0 \xD0\xB2 cPanel bookmarks "
+      FeatureTarget1: _top
+      FeatureText1: Ярлыки доступа в cPanel
+      colInRow: 1
+      notShowItem1: ''
+  GroupHeader: 
+    - 
+      GroupID: pf
+      GroupName: Аккаунт
+      colInRow: 1
+  GroupID: pf
+  colInRow: 1
+- 
+  FeatureLists: 
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mail/pops.html
+      FeatureName1: m_pop
+      FeatureSearchText1: "m_pop \xD0\x9F\xD0\xBE\xD1\x87\xD1\x82\xD0\xB0 \xD0\xA3\xD0\xBF\xD1\x80\xD0\xB0\xD0\xB2\xD0\xBB\xD0\xB5\xD0\xBD\xD0\xB8\xD0\xB5 \xD0\xBF\xD0\xBE\xD0\xBB\xD1\x8C\xD0\xB7\xD0\xBE\xD0\xB2\xD0\xB0\xD1\x82\xD0\xB5\xD0\xBB\xD1\x8F\xD0\xBC\xD0\xB8 pop imap smtp new account "
+      FeatureTarget1: _top
+      FeatureText1: Управление пользователями
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: webmaillogin.html?login=1
+      FeatureName1: m_webmail
+      FeatureSearchText1: "m_webmail \xD0\x9F\xD0\xBE\xD1\x87\xD1\x82\xD0\xB0 \xD0\x92\xD0\xBE\xD0\xB9\xD1\x82\xD0\xB8 \xD0\xB2 \xD0\x92\xD0\xB5\xD0\xB1\xD0\x9C\xD0\xB5\xD0\xB9\xD0\xBB webmail "
+      FeatureTarget1: ''
+      FeatureText1: Войти в ВебМейл
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: rvwebmailmgr/index.html
+      FeatureName1: m_webmailmgr
+      FeatureSearchText1: "m_webmailmgr \xD0\x9F\xD0\xBE\xD1\x87\xD1\x82\xD0\xB0 Webmail Manager "
+      FeatureTarget1: _top
+      FeatureText1: Webmail Manager
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mail/def.html
+      FeatureName1: m_default
+      FeatureSearchText1: "m_default \xD0\x9F\xD0\xBE\xD1\x87\xD1\x82\xD0\xB0 \xD0\x9F\xD0\xBE\xD0\xBB\xD1\x8C\xD0\xB7\xD0\xBE\xD0\xB2\xD0\xB0\xD1\x82\xD0\xB5\xD0\xBB\xD1\x8C \xD0\xBF\xD0\xBE \xD1\x83\xD0\xBC\xD0\xBE\xD0\xBB\xD1\x87\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x8E default address "
+      FeatureTarget1: _top
+      FeatureText1: Пользователь по умолчанию
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mail/fwds.html
+      FeatureName1: m_forward
+      FeatureSearchText1: "m_forward \xD0\x9F\xD0\xBE\xD1\x87\xD1\x82\xD0\xB0 \xD0\x90\xD0\xBB\xD0\xB8\xD0\xB0\xD1\x81\xD1\x8B/\xD0\xA4\xD0\xBE\xD1\x80\xD0\xB2\xD0\xB0\xD1\x80\xD0\xB4\xD0\xB5\xD1\x80\xD1\x8B forwarders forward "
+      FeatureTarget1: _top
+      FeatureText1: Алиасы/Форвардеры
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mail/csvimport.html
+      FeatureName1: m_csvimport
+      FeatureSearchText1: "m_csvimport \xD0\x9F\xD0\xBE\xD1\x87\xD1\x82\xD0\xB0 Import E-mail Accounts/Forwarders Import Mail csv xls "
+      FeatureTarget1: _top
+      FeatureText1: Import E-mail Accounts/Forwarders
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mail/route.html
+      FeatureName1: m_route
+      FeatureSearchText1: "m_route \xD0\x9F\xD0\xBE\xD1\x87\xD1\x82\xD0\xB0 \xD0\x9C\xD0\xB0\xD1\x80\xD1\x88\xD1\x80\xD1\x83\xD1\x82\xD0\xB8\xD0\xB7\xD0\xB0\xD1\x86\xD0\xB8\xD1\x8F \xD0\xBF\xD0\xBE\xD1\x87\xD1\x82\xD0\xBE\xD0\xB2\xD0\xBE\xD0\xB3\xD0\xBE \xD0\xB0\xD0\xB4\xD1\x80\xD0\xB5\xD1\x81\xD0\xB0 mailroute "
+      FeatureTarget1: _top
+      FeatureText1: Маршрутизация почтового адреса
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mail/spam/spam.html
+      FeatureName1: m_spam
+      FeatureSearchText1: "m_spam \xD0\x9F\xD0\xBE\xD1\x87\xD1\x82\xD0\xB0 SpamAssassin spam spamassassin "
+      FeatureTarget1: _top
+      FeatureText1: SpamAssassin
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mail/mx.html
+      FeatureName1: m_mx
+      FeatureSearchText1: "m_mx \xD0\x9F\xD0\xBE\xD1\x87\xD1\x82\xD0\xB0 \xD0\x98\xD0\xB7\xD0\xBC\xD0\xB5\xD0\xBD\xD0\xB8\xD1\x82\xD1\x8C \xD0\xB7\xD0\xB0\xD0\xBF\xD0\xB8\xD1\x81\xD0\xB8 MX entry dns "
+      FeatureTarget1: _top
+      FeatureText1: Изменить записи MX
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mail/filters/managefilters.html
+      FeatureName1: m_filter_user
+      FeatureSearchText1: "m_filter_user \xD0\x9F\xD0\xBE\xD1\x87\xD1\x82\xD0\xB0 \xD0\xA4\xD0\xB8\xD0\xBB\xD1\x8C\xD1\x82\xD1\x80\xD1\x8B \xD0\xBF\xD0\xBE\xD0\xBB\xD1\x8C\xD0\xB7\xD0\xBE\xD0\xB2\xD0\xB0\xD1\x82\xD0\xB5\xD0\xBB\xD1\x8F filtered "
+      FeatureTarget1: _top
+      FeatureText1: Фильтры пользователя
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mail/filters/userfilters.html
+      FeatureName1: m_filter_acc
+      FeatureSearchText1: "m_filter_acc \xD0\x9F\xD0\xBE\xD1\x87\xD1\x82\xD0\xB0 \xD0\xA4\xD0\xB8\xD0\xBB\xD1\x8C\xD1\x82\xD1\x80\xD1\x8B \xD0\xB0\xD0\xBA\xD0\xBA\xD0\xB0\xD1\x83\xD0\xBD\xD1\x82\xD0\xB0 filtered "
+      FeatureTarget1: _top
+      FeatureText1: Фильтры аккаунта
+      colInRow: 1
+      notShowItem1: ''
+  GroupHeader: 
+    - 
+      GroupID: m
+      GroupName: Почта
+      colInRow: 1
+  GroupID: m
+  colInRow: 1
+- 
+  FeatureLists: 
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: stats/lastvisitors_landing.html
+      FeatureName1: l_visitor
+      FeatureSearchText1: "l_visitor \xD0\xA1\xD1\x82\xD0\xB0\xD1\x82\xD0\xB8\xD1\x81\xD1\x82\xD0\xB8\xD0\xBA\xD0\xB0 \xD0\xB8 \xD0\xBB\xD0\xBE\xD0\xB3 \xD1\x84\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B \xD0\x9F\xD0\xBE\xD1\x81\xD0\xBB\xD0\xB5\xD0\xB4\xD0\xBD\xD0\xB8\xD0\xB5 \xD0\xBF\xD0\xBE\xD1\x81\xD0\xB5\xD1\x82\xD0\xB8\xD1\x82\xD0\xB5\xD0\xBB\xD0\xB8 latest visitors "
+      FeatureTarget1: _top
+      FeatureText1: Последние посетители
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: stats/bandwidth.html
+      FeatureName1: l_bandwidth
+      FeatureSearchText1: "l_bandwidth \xD0\xA1\xD1\x82\xD0\xB0\xD1\x82\xD0\xB8\xD1\x81\xD1\x82\xD0\xB8\xD0\xBA\xD0\xB0 \xD0\xB8 \xD0\xBB\xD0\xBE\xD0\xB3 \xD1\x84\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B \xD0\xA2\xD1\x80\xD0\xB0\xD1\x84\xD0\xB8\xD0\xBA bandmin transfer "
+      FeatureTarget1: _top
+      FeatureText1: Трафик
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: stats/webalizer_landing.html
+      FeatureName1: l_stats_alizer
+      FeatureSearchText1: "l_stats_alizer \xD0\xA1\xD1\x82\xD0\xB0\xD1\x82\xD0\xB8\xD1\x81\xD1\x82\xD0\xB8\xD0\xBA\xD0\xB0 \xD0\xB8 \xD0\xBB\xD0\xBE\xD0\xB3 \xD1\x84\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B Webalizer webalizer stats "
+      FeatureTarget1: _top
+      FeatureText1: Webalizer
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: stats/webalizerftp_landing.html
+      FeatureName1: l_stats_alizerftp
+      FeatureSearchText1: "l_stats_alizerftp \xD0\xA1\xD1\x82\xD0\xB0\xD1\x82\xD0\xB8\xD1\x81\xD1\x82\xD0\xB8\xD0\xBA\xD0\xB0 \xD0\xB8 \xD0\xBB\xD0\xBE\xD0\xB3 \xD1\x84\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B Webalizer FTP webalizer stats ftp "
+      FeatureTarget1: _top
+      FeatureText1: Webalizer FTP
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: stats/awstats_landing.html
+      FeatureName1: l_stats_aw
+      FeatureSearchText1: "l_stats_aw \xD0\xA1\xD1\x82\xD0\xB0\xD1\x82\xD0\xB8\xD1\x81\xD1\x82\xD0\xB8\xD0\xBA\xD0\xB0 \xD0\xB8 \xD0\xBB\xD0\xBE\xD0\xB3 \xD1\x84\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B Awstats awstats "
+      FeatureTarget1: _top
+      FeatureText1: Awstats
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: raw/index.html
+      FeatureName1: l_raw
+      FeatureSearchText1: "l_raw \xD0\xA1\xD1\x82\xD0\xB0\xD1\x82\xD0\xB8\xD1\x81\xD1\x82\xD0\xB8\xD0\xBA\xD0\xB0 \xD0\xB8 \xD0\xBB\xD0\xBE\xD0\xB3 \xD1\x84\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B \xD0\x9D\xD0\xB5\xD0\xBE\xD0\xB1\xD1\x80\xD0\xB0\xD0\xB1\xD0\xBE\xD1\x82\xD0\xB0\xD0\xBD\xD0\xBD\xD1\x8B\xD0\xB5 \xD0\xBB\xD0\xBE\xD0\xB3 \xD1\x84\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B \xD0\xB4\xD0\xBE\xD1\x81\xD1\x82\xD1\x83\xD0\xBF\xD0\xB0 logs rawlogs "
+      FeatureTarget1: _top
+      FeatureText1: Необработанные лог файлы доступа
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: stats/errlog.html
+      FeatureName1: l_error
+      FeatureSearchText1: "l_error \xD0\xA1\xD1\x82\xD0\xB0\xD1\x82\xD0\xB8\xD1\x81\xD1\x82\xD0\xB8\xD0\xBA\xD0\xB0 \xD0\xB8 \xD0\xBB\xD0\xBE\xD0\xB3 \xD1\x84\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B \xD0\x9B\xD0\xBE\xD0\xB3 \xD1\x84\xD0\xB0\xD0\xB9\xD0\xBB \xD0\xBE\xD1\x88\xD0\xB8\xD0\xB1\xD0\xBE\xD0\xBA errorlog error_log error log "
+      FeatureTarget1: _top
+      FeatureText1: Лог файл ошибок
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: statmanager/index.html
+      FeatureName1: l_statmanager
+      FeatureSearchText1: "l_statmanager \xD0\xA1\xD1\x82\xD0\xB0\xD1\x82\xD0\xB8\xD1\x81\xD1\x82\xD0\xB8\xD0\xBA\xD0\xB0 \xD0\xB8 \xD0\xBB\xD0\xBE\xD0\xB3 \xD1\x84\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B \xD0\x92\xD1\x8B\xD0\xB1\xD0\xBE\xD1\x80 \xD0\xBF\xD1\x80\xD0\xBE\xD0\xB3\xD1\x80\xD0\xB0\xD0\xBC\xD0\xBC\xD1\x8B \xD1\x81\xD1\x82\xD0\xB0\xD1\x82\xD0\xB8\xD1\x81\xD1\x82\xD0\xB8\xD0\xBA\xD0\xB8 stats manager "
+      FeatureTarget1: _top
+      FeatureText1: Выбор программы статистики
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: logaholic/index.html
+      FeatureName1: l_logaholic
+      FeatureSearchText1: "l_logaholic \xD0\xA1\xD1\x82\xD0\xB0\xD1\x82\xD0\xB8\xD1\x81\xD1\x82\xD0\xB8\xD0\xBA\xD0\xB0 \xD0\xB8 \xD0\xBB\xD0\xBE\xD0\xB3 \xD1\x84\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B Logaholic logaholic-searchtxt "
+      FeatureTarget1: _top
+      FeatureText1: Logaholic
+      colInRow: 1
+      notShowItem1: ''
+  GroupHeader: 
+    - 
+      GroupID: l
+      GroupName: Статистика и лог файлы
+      colInRow: 1
+  GroupID: l
+  colInRow: 1
+- 
+  FeatureLists: 
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: files/optionselect-pop.html?opt=files
+      FeatureName1: s_file
+      FeatureSearchText1: "s_file \xD0\xA4\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B \xD0\xA4\xD0\xB0\xD0\xB9\xD0\xBB \xD0\xBC\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1\x80 (\xD1\x81\xD1\x82\xD0\xB0\xD1\x80\xD1\x8B\xD0\xB9) file manager file-manager "
+      FeatureTarget1: _top
+      FeatureText1: Файл менеджер (старый)
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: filemanager/optionselect-pop.html?opt=filemanager
+      FeatureName1: s_file2
+      FeatureSearchText1: "s_file2 \xD0\xA4\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B \xD0\xA4\xD0\xB0\xD0\xB9\xD0\xBB \xD0\xBC\xD0\xB5\xD0\xBD\xD0\xB5\xD0\xB4\xD0\xB6\xD0\xB5\xD1\x80 file manager file-manager "
+      FeatureTarget1: _top
+      FeatureText1: Файл менеджер
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: diskusage/index.html
+      FeatureName1: s_disk
+      FeatureSearchText1: "s_disk \xD0\xA4\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B \xD0\x92\xD1\x8C\xD1\x8E\xD0\xB2\xD0\xB5\xD1\x80 \xD0\xBC\xD0\xB5\xD1\x81\xD1\x82\xD0\xB0 \xD0\xBD\xD0\xB0 \xD0\xB4\xD0\xB8\xD1\x81\xD0\xBA\xD0\xB5 d space usage disk-usage "
+      FeatureTarget1: _top
+      FeatureText1: Вьювер места на диске
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: ftp/accounts.html
+      FeatureName1: s_ftp_acc
+      FeatureSearchText1: "s_ftp_acc \xD0\xA4\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B \xD0\xA4\xD0\xA2\xD0\x9F \xD0\xBF\xD0\xBE\xD0\xBB\xD1\x8C\xD0\xB7\xD0\xBE\xD0\xB2\xD0\xB0\xD1\x82\xD0\xB5\xD0\xBB\xD0\xB8 ftp create "
+      FeatureTarget1: _top
+      FeatureText1: ФТП пользователи
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: rvftpmanage/index.html
+      FeatureName1: s_ftp_manage
+      FeatureSearchText1: "s_ftp_manage \xD0\xA4\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B FTP \xD0\xB4\xD0\xBE\xD1\x81\xD1\x82\xD1\x83\xD0\xBF "
+      FeatureTarget1: _top
+      FeatureText1: FTP доступ
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: ftp/session.html
+      FeatureName1: s_ftp_sess
+      FeatureSearchText1: "s_ftp_sess \xD0\xA4\xD0\xB0\xD0\xB9\xD0\xBB\xD1\x8B \xD0\xA3\xD0\xBF\xD1\x80\xD0\xB0\xD0\xB2\xD0\xBB\xD0\xB5\xD0\xBD\xD0\xB8\xD0\xB5 \xD0\xA4\xD0\xA2\xD0\x9F \xD1\x81\xD0\xB5\xD1\x81\xD1\x81\xD0\xB8\xD1\x8F\xD0\xBC\xD0\xB8 ftp accounts "
+      FeatureTarget1: _top
+      FeatureText1: Управление ФТП сессиями
+      colInRow: 1
+      notShowItem1: ''
+  GroupHeader: 
+    - 
+      GroupID: f
+      GroupName: Файлы
+      colInRow: 1
+  GroupID: f
+  colInRow: 1
+- 
+  FeatureLists: 
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: subdomain/logs.html
+      FeatureName1: l_sub
+      FeatureSearchText1: "l_sub \xD0\x94\xD0\xBE\xD0\xBC\xD0\xB5\xD0\xBD\xD1\x8B \xD0\xA1\xD1\x82\xD0\xB0\xD1\x82\xD0\xB8\xD1\x81\xD1\x82\xD0\xB8\xD0\xBA\xD0\xB0 \xD0\xBF\xD0\xBE\xD0\xB4\xD0\xB4\xD0\xBE\xD0\xBC\xD0\xB5\xD0\xBD\xD0\xBE\xD0\xB2 "
+      FeatureTarget1: _top
+      FeatureText1: Статистика поддоменов
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: subdomain/index.html
+      FeatureName1: s_sub
+      FeatureSearchText1: "s_sub \xD0\x94\xD0\xBE\xD0\xBC\xD0\xB5\xD0\xBD\xD1\x8B \xD0\x9F\xD0\xBE\xD0\xB4\xD0\xB4\xD0\xBE\xD0\xBC\xD0\xB5\xD0\xBD\xD1\x8B domain "
+      FeatureTarget1: _top
+      FeatureText1: Поддомены
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mime/redirect.html
+      FeatureName1: s_redirect
+      FeatureSearchText1: "s_redirect \xD0\x94\xD0\xBE\xD0\xBC\xD0\xB5\xD0\xBD\xD1\x8B \xD0\xA3\xD0\xBF\xD1\x80\xD0\xB0\xD0\xB2\xD0\xBB\xD0\xB5\xD0\xBD\xD0\xB8\xD0\xB5 \xD1\x80\xD0\xB5\xD0\xB4\xD0\xB8\xD1\x80\xD0\xB5\xD0\xBA\xD1\x82\xD0\xB0\xD0\xBC\xD0\xB8 rewrite modrewrite "
+      FeatureTarget1: _top
+      FeatureText1: Управление редиректами
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: zoneedit/advanced.html
+      FeatureName1: s_advzoneedit
+      FeatureSearchText1: "s_advzoneedit \xD0\x94\xD0\xBE\xD0\xBC\xD0\xB5\xD0\xBD\xD1\x8B \xD0\xA0\xD0\xB0\xD1\x81\xD1\x88\xD0\xB8\xD1\x80\xD0\xB5\xD0\xBD\xD0\xBD\xD1\x8B\xD0\xB9 \xD1\x80\xD0\xB5\xD0\xB4\xD0\xB0\xD0\xBA\xD1\x82\xD0\xBE\xD1\x80 DNS-\xD0\xB7\xD0\xBE\xD0\xBD DNS Zone CNAME TTL "
+      FeatureTarget1: _top
+      FeatureText1: Расширенный редактор DNS-зон
+      colInRow: 1
+      notShowItem1: ''
+  GroupHeader: 
+    - 
+      GroupID: d
+      GroupName: Домены
+      colInRow: 1
+  GroupID: d
+  colInRow: 1
+- 
+  FeatureLists: 
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: sql/wizard1.html
+      FeatureName1: s_db_wizard
+      FeatureSearchText1: "s_db_wizard \xD0\x91\xD0\xB0\xD0\xB7\xD1\x8B \xD0\xB4\xD0\xB0\xD0\xBD\xD0\xBD\xD1\x8B\xD1\x85 \xD0\x9C\xD0\xB0\xD1\x81\xD1\x82\xD0\xB5\xD1\x80 \xD0\xB1\xD0\xB0\xD0\xB7 \xD0\xB4\xD0\xB0\xD0\xBD\xD0\xBD\xD1\x8B\xD1\x85 MySQL mysql database "
+      FeatureTarget1: _top
+      FeatureText1: Мастер баз данных MySQL
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: sql/managedbs.html
+      FeatureName1: s_db
+      FeatureSearchText1: "s_db \xD0\x91\xD0\xB0\xD0\xB7\xD1\x8B \xD0\xB4\xD0\xB0\xD0\xBD\xD0\xBD\xD1\x8B\xD1\x85 \xD0\x91\xD0\xB0\xD0\xB7\xD1\x8B \xD0\xB4\xD0\xB0\xD0\xBD\xD0\xBD\xD1\x8B\xD1\x85 MySQL mysql database "
+      FeatureTarget1: _top
+      FeatureText1: Базы данных MySQL
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: sql/managehost.html
+      FeatureName1: s_dbh
+      FeatureSearchText1: "s_dbh \xD0\x91\xD0\xB0\xD0\xB7\xD1\x8B \xD0\xB4\xD0\xB0\xD0\xBD\xD0\xBD\xD1\x8B\xD1\x85 \xD0\xA3\xD0\xBF\xD1\x80\xD0\xB0\xD0\xB2\xD0\xBB\xD1\x8F\xD1\x82\xD1\x8C \xD1\x83\xD0\xB4\xD0\xB0\xD0\xBB\xD0\xB5\xD0\xBD\xD0\xBD\xD1\x8B\xD0\xBC \xD0\xB4\xD0\xBE\xD1\x81\xD1\x82\xD1\x83\xD0\xBF\xD0\xBE\xD0\xBC \xD0\xBA MySQL remote mysql "
+      FeatureTarget1: _top
+      FeatureText1: Управлять удаленным доступом к MySQL
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: sql/PhpMyAdmin.html
+      FeatureName1: s_phpmyadmin
+      FeatureSearchText1: "s_phpmyadmin \xD0\x91\xD0\xB0\xD0\xB7\xD1\x8B \xD0\xB4\xD0\xB0\xD0\xBD\xD0\xBD\xD1\x8B\xD1\x85 phpMyAdmin mysql database "
+      FeatureTarget1: _blank
+      FeatureText1: phpMyAdmin
+      colInRow: 1
+      notShowItem1: ''
+  GroupHeader: 
+    - 
+      GroupID: b
+      GroupName: Базы данных
+      colInRow: 1
+  GroupID: b
+  colInRow: 1
+- 
+  FeatureLists: 
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mime/hotlink.html
+      FeatureName1: s_hotlink
+      FeatureSearchText1: "s_hotlink \xD0\x91\xD0\xB5\xD0\xB7\xD0\xBE\xD0\xBF\xD0\xB0\xD1\x81\xD0\xBD\xD0\xBE\xD1\x81\xD1\x82\xD1\x8C \xD0\xA5\xD0\xBE\xD1\x82\xD0\xBB\xD0\xB8\xD0\xBD\xD0\xBA \xD0\xB7\xD0\xB0\xD1\x89\xD0\xB8\xD1\x82\xD0\xB0 protection "
+      FeatureTarget1: _top
+      FeatureText1: Хотлинк защита
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: denyip/index.html
+      FeatureName1: s_ipdeny
+      FeatureSearchText1: "s_ipdeny \xD0\x91\xD0\xB5\xD0\xB7\xD0\xBE\xD0\xBF\xD0\xB0\xD1\x81\xD0\xBD\xD0\xBE\xD1\x81\xD1\x82\xD1\x8C IP \xD0\xB1\xD0\xB0\xD0\xBD deny block "
+      FeatureTarget1: _top
+      FeatureText1: IP бан
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: htaccess/index.html
+      FeatureName1: s_protect
+      FeatureSearchText1: "s_protect \xD0\x91\xD0\xB5\xD0\xB7\xD0\xBE\xD0\xBF\xD0\xB0\xD1\x81\xD0\xBD\xD0\xBE\xD1\x81\xD1\x82\xD1\x8C \xD0\x97\xD0\xB0\xD1\x89\xD0\xB8\xD1\x82\xD0\xB0 \xD0\xBF\xD0\xB0\xD0\xBF\xD0\xBE\xD0\xBA passwordprotect protect password "
+      FeatureTarget1: _top
+      FeatureText1: Защита папок
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: gpg/index.html
+      FeatureName1: a_pgp
+      FeatureSearchText1: "a_pgp \xD0\x91\xD0\xB5\xD0\xB7\xD0\xBE\xD0\xBF\xD0\xB0\xD1\x81\xD0\xBD\xD0\xBE\xD1\x81\xD1\x82\xD1\x8C \xD0\xA8\xD0\xB8\xD1\x84\xD1\x80\xD0\xBE\xD0\xB2\xD0\xB0\xD0\xBD\xD0\xB8\xD0\xB5 OpenPGP gpg "
+      FeatureTarget1: _top
+      FeatureText1: Шифрование OpenPGP
+      colInRow: 1
+      notShowItem1: ''
+  GroupHeader: 
+    - 
+      GroupID: sc
+      GroupName: Безопасность
+      colInRow: 1
+  GroupID: sc
+  colInRow: 1
+- 
+  FeatureLists: 
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: cgi/index.html
+      FeatureName1: p_c
+      FeatureSearchText1: "p_c \xD0\x92\xD0\xB5\xD0\xB1 \xD0\xBF\xD1\x80\xD0\xB8\xD0\xBB\xD0\xBE\xD0\xB6\xD0\xB5\xD0\xBD\xD0\xB8\xD1\x8F \xD0\xB8 \xD0\xBC\xD0\xBE\xD0\xB4\xD1\x83\xD0\xBB\xD0\xB8 \xD1\x8F\xD0\xB7\xD1\x8B\xD0\xBA\xD0\xBE\xD0\xB2 CGI \xD1\x81\xD0\xBA\xD1\x80\xD0\xB8\xD0\xBF\xD1\x82\xD1\x8B cgi "
+      FeatureTarget1: _top
+      FeatureText1: CGI скрипты
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: fantastico.html
+      FeatureName1: p_fantastico
+      FeatureSearchText1: "p_fantastico \xD0\x92\xD0\xB5\xD0\xB1 \xD0\xBF\xD1\x80\xD0\xB8\xD0\xBB\xD0\xBE\xD0\xB6\xD0\xB5\xD0\xBD\xD0\xB8\xD1\x8F \xD0\xB8 \xD0\xBC\xD0\xBE\xD0\xB4\xD1\x83\xD0\xBB\xD0\xB8 \xD1\x8F\xD0\xB7\xD1\x8B\xD0\xBA\xD0\xBE\xD0\xB2 \xD0\xA4\xD0\xB0\xD0\xBD\xD1\x82\xD0\xB0\xD1\x81\xD1\x82\xD0\xB8\xD0\xBA\xD0\xBE (\xD0\xBD\xD0\xB0\xD0\xB1\xD0\xBE\xD1\x80 \xD1\x81\xD0\xBA\xD1\x80\xD0\xB8\xD0\xBF\xD1\x82\xD0\xBE\xD0\xB2) "
+      FeatureTarget1: _top
+      FeatureText1: Фантастико (набор скриптов)
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: php/index.html?lang
+      FeatureName1: p_php_conf
+      FeatureSearchText1: "p_php_conf \xD0\x92\xD0\xB5\xD0\xB1 \xD0\xBF\xD1\x80\xD0\xB8\xD0\xBB\xD0\xBE\xD0\xB6\xD0\xB5\xD0\xBD\xD0\xB8\xD1\x8F \xD0\xB8 \xD0\xBC\xD0\xBE\xD0\xB4\xD1\x83\xD0\xBB\xD0\xB8 \xD1\x8F\xD0\xB7\xD1\x8B\xD0\xBA\xD0\xBE\xD0\xB2 \xD0\x9A\xD0\xBE\xD0\xBD\xD1\x84\xD0\xB8\xD0\xB3\xD1\x83\xD1\x80\xD0\xB0\xD1\x86\xD0\xB8\xD1\x8F PHP config configuration "
+      FeatureTarget1: _top
+      FeatureText1: Конфигурация PHP
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: /cpsess3076140595/3rdparty/rvsitebuilder/index.php?/sitebuilder/sitebuilderhome
+      FeatureName1: whmaddon_rvsitebuilder
+      FeatureSearchText1: Конструктор сайта
+      FeatureTarget1: _top
+      FeatureText1: Конструктор сайта
+      colInRow: 1
+      notShowItem1: ''
+  GroupHeader: 
+    - 
+      GroupID: p
+      GroupName: Веб приложения и модули языков
+      colInRow: 1
+  GroupID: p
+  colInRow: 1
+- 
+  FeatureLists: 
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mime/mime.html
+      FeatureName1: a_mime
+      FeatureSearchText1: "a_mime \xD0\x94\xD0\xBE\xD0\xBF\xD0\xBE\xD0\xBB\xD0\xBD\xD0\xB8\xD1\x82\xD0\xB5\xD0\xBB\xD1\x8C\xD0\xBD\xD1\x8B\xD0\xB5 \xD0\xB8\xD0\xBD\xD1\x81\xD1\x82\xD1\x80\xD1\x83\xD0\xBC\xD0\xB5\xD0\xBD\xD1\x82\xD1\x8B Mime \xD1\x82\xD0\xB8\xD0\xBF\xD1\x8B mimetype types "
+      FeatureTarget1: _top
+      FeatureText1: Mime типы
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: mime/handle.html
+      FeatureName1: a_apache
+      FeatureSearchText1: "a_apache \xD0\x94\xD0\xBE\xD0\xBF\xD0\xBE\xD0\xBB\xD0\xBD\xD0\xB8\xD1\x82\xD0\xB5\xD0\xBB\xD1\x8C\xD0\xBD\xD1\x8B\xD0\xB5 \xD0\xB8\xD0\xBD\xD1\x81\xD1\x82\xD1\x80\xD1\x83\xD0\xBC\xD0\xB5\xD0\xBD\xD1\x82\xD1\x8B \xD0\x9E\xD0\xB1\xD1\x80\xD0\xB0\xD0\xB1\xD0\xBE\xD1\x82\xD1\x87\xD0\xB8\xD0\xBA\xD0\xB8 Apache apache handlers extension configure "
+      FeatureTarget1: _top
+      FeatureText1: Обработчики Apache
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: cron/index.html
+      FeatureName1: a_cron
+      FeatureSearchText1: "a_cron \xD0\x94\xD0\xBE\xD0\xBF\xD0\xBE\xD0\xBB\xD0\xBD\xD0\xB8\xD1\x82\xD0\xB5\xD0\xBB\xD1\x8C\xD0\xBD\xD1\x8B\xD0\xB5 \xD0\xB8\xD0\xBD\xD1\x81\xD1\x82\xD1\x80\xD1\x83\xD0\xBC\xD0\xB5\xD0\xBD\xD1\x82\xD1\x8B \xD0\x9F\xD0\xBB\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x80\xD0\xBE\xD0\xB2\xD1\x89\xD0\xB8\xD0\xBA \xD0\xB7\xD0\xB0\xD0\xB4\xD0\xB0\xD1\x87 cronjob crontab edit "
+      FeatureTarget1: _top
+      FeatureText1: Планировщик задач
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: indexmanager/index.html
+      FeatureName1: s_index
+      FeatureSearchText1: "s_index \xD0\x94\xD0\xBE\xD0\xBF\xD0\xBE\xD0\xBB\xD0\xBD\xD0\xB8\xD1\x82\xD0\xB5\xD0\xBB\xD1\x8C\xD0\xBD\xD1\x8B\xD0\xB5 \xD0\xB8\xD0\xBD\xD1\x81\xD1\x82\xD1\x80\xD1\x83\xD0\xBC\xD0\xB5\xD0\xBD\xD1\x82\xD1\x8B \xD0\x9B\xD0\xB8\xD1\x81\xD1\x82\xD0\xB8\xD0\xBD\xD0\xB3 \xD0\xBF\xD0\xB0\xD0\xBF\xD0\xBE\xD0\xBA index manager "
+      FeatureTarget1: _top
+      FeatureText1: Листинг папок
+      colInRow: 1
+      notShowItem1: ''
+    - 
+      FeatureImg1: images/spacer.gif
+      FeatureJSLink1: ''
+      FeatureLink1: err/index.html
+      FeatureName1: s_error
+      FeatureSearchText1: "s_error \xD0\x94\xD0\xBE\xD0\xBF\xD0\xBE\xD0\xBB\xD0\xBD\xD0\xB8\xD1\x82\xD0\xB5\xD0\xBB\xD1\x8C\xD0\xBD\xD1\x8B\xD0\xB5 \xD0\xB8\xD0\xBD\xD1\x81\xD1\x82\xD1\x80\xD1\x83\xD0\xBC\xD0\xB5\xD0\xBD\xD1\x82\xD1\x8B \xD0\xA1\xD0\xBE\xD0\xB1\xD1\x81\xD1\x82\xD0\xB2\xD0\xB5\xD0\xBD\xD0\xBD\xD1\x8B\xD0\xB5 \xD1\x81\xD1\x82\xD1\x80\xD0\xB0\xD0\xBD\xD0\xB8\xD1\x86\xD1\x8B \xD0\xBE\xD1\x88\xD0\xB8\xD0\xB1\xD0\xBE\xD0\xBA "
+      FeatureTarget1: _top
+      FeatureText1: Собственные страницы ошибок
+      colInRow: 1
+      notShowItem1: ''
+  GroupHeader: 
+    - 
+      GroupID: a
+      GroupName: Дополнительные инструменты
+      colInRow: 1
+  GroupID: a
+  colInRow: 1

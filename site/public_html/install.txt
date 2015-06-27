@@ -1,0 +1,23 @@
+Comments- бесплатный скрипт добавления комментариев посетителей на веб-страницу.
+
+Скрипт не использует базу MySQL. Все данные хранятся в html файле (файлах).
+
+Ниже описан порядок установки скрипта.
+Обновления скрипта (если таковые будут) и подробное описание находится по адресу http://on-line-teaching.com/soft/comments.html
+
+1. Распакуйте архив скрипта в корень сайта и установите CHMOD 777 для папки comments.
+2. Вставьте следующий код в то место веб-страницы, где должны располагаться комментарии посетителей:
+
+<div id="commentFormContent"></div>
+<div id="comments_div"></div>
+<script src="/comments.php?jquery&script" type="text/javascript" charset="windows-1241" language="javascript"></script>
+
+
+Если есть вопросы и проблемы с установкой - посетите страницу скрипта http://on-line-teaching.com/soft/comments.html
+
+Пользуйтесь :)
+
+Автор скрипта: Сергей Кузин www.kuzin.name
+
+Владелец: Юрий Кордык www.on-line-teaching.com
+ 

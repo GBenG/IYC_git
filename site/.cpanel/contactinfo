@@ -1,0 +1,6 @@
+--- 
+email: BJ-Send@yandex.ru
+notify_bandwidth_limit: 0
+notify_disk_limit: 0
+notify_email_quota_limit: 0
+second_email: BJ-Send@yandex.ru

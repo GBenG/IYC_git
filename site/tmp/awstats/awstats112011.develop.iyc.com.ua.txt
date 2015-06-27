@@ -1,0 +1,338 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201111 will be lost/reset.
+# Last config file used to build this data file was /home/u5088/tmp/awstats/awstats.develop.iyc.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2009                
+POS_TIME 2681                
+POS_VISITOR 7200                
+POS_DAY 7963                
+POS_DOMAIN 3337                
+POS_LOGIN 3600                
+POS_ROBOT 3755                
+POS_WORMS 3887                
+POS_EMAILSENDER 4018                
+POS_EMAILRECEIVER 4161                
+POS_SESSION 8300                
+POS_SIDER 8506                
+POS_FILETYPES 4296                
+POS_DOWNLOADS 4517                
+POS_OS 4565                
+POS_BROWSER 4624                
+POS_SCREENSIZE 4794                
+POS_UNKNOWNREFERER 4868                
+POS_UNKNOWNREFERERBROWSER 4955                
+POS_ORIGIN 5037                
+POS_SEREFERRALS 5179                
+POS_PAGEREFS 5323                
+POS_SEARCHWORDS 5637                
+POS_KEYWORDS 5789                
+POS_MISC 2345                
+POS_ERRORS 5848                
+POS_CLUSTER 3456                
+POS_SIDER_404 5947                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20111211155319 1 0 10774765651860
+FirstTime 20111107092520
+LastTime 20111121204758
+LastUpdate 20111211210837 1 0 0 0 0
+TotalVisits 34                  
+TotalUnique 16                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 17                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 9 31 3009810 0 0 0
+10 3 9 0 0 0 0
+11 37 218 1266402 3 7 40899
+12 27 63 1468009 3 3 40899
+13 62 202 3057265 5 7 68165
+14 18 68 349819 1 6 13633
+15 66 239 1799909 3 7 41238
+16 219 998 3146297 8 25 109968
+17 54 273 1432121 6 11 41238
+18 15 57 916905 1 1 13633
+19 7 94 200258 7 8 109264
+20 126 180 1491199 2 104 27266
+21 127 371 1378665 3 175 27266
+22 144 1420 3995513 20 84 149963
+23 29 422 480742 1 2 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+ua 926 4578 21218467
+cz 15 60 1912771
+eu 2 7 861676
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 165 53194 0 0
+php 797 10596886 0 0
+png 28 167166 0 0
+html 144 823603 0 0
+ico 167 3824968 0 0
+jpg 648 7301822 0 0
+Unknown 2 1606 0 0
+gif 2694 1223669 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 2
+winxp 3650
+win7 995
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 7
+msie8.0 14
+chrome15.0.874.120 551
+firefox5.0 12
+firefox7.0.1 20
+opera9.80 3104
+chrome15.0.874.106 131
+firefox3.6.23 813
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 552 2737
+From1 0 0
+From2 0 0
+From3 20 20
+From4 371 1888
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://e.mail.ru/cgi-bin/msglist 12 12
+http://vkontakte.ru/im 4 4
+http://vkontakte.ru/mail 2 2
+http://vkontakte.ru/id126151874 1 1
+http://vkontakte.ru/id11639967 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 11 0
+404 307 683432
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 29
+/images/23.gif 2 -
+/images/map.jpg 1 -
+/%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BE%D0%B2%20%D0%B2%20%D1%81%D1%83%D0%B4%D0%B0%D1%85 1 http://develop.iyc.com.ua/fiz.php
+/about.php 2 -
+/images/dizayn/bgmiddlemenu.gif 9 -
+/images/aiok.jpg 1 -
+/registr.php 1 -
+/images/map3.gif 2 -
+/images/img__04.gif 24 -
+/images/img__61.gif 2 -
+/images/img__05.jpg 24 -
+/images/img__06.gif 24 -
+/9 1 http://develop.iyc.com.ua/fiz.php
+/zakon.php 13 http://develop.iyc.com.ua/index.php
+/images/img__60.gif 41 -
+/images/img__12.gif 24 -
+/online.php 21 -
+/images/img__24.gif 25 -
+/3 1 http://develop.iyc.com.ua/fiz.php
+/css/msk.css 2 -
+/private.php 4 -
+/index.html 1 -
+/jur.php 3 -
+/images/img__11.gif 24 -
+/images/img 1 -
+/images/dizayn/contentbg.gif 1 -
+/index.php 3 http://develop.iyc.com.ua/index.php
+/images/img__59.gif 25 -
+/images/img__10.jpg 24 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 17
+109.167.38.151 236 236 254865 20111121204758
+178.158.115.243 234 955 6140374 20111115171711
+94.248.37.45 229 1625 5122746 20111111233553
+195.189.45.17 130 827 4401526 20111115171851
+109.167.98.153 79 856 2051781 20111113225519
+94.158.32.229 9 39 439043 20111114184749
+178.158.113.186 7 17 478743 20111108112025
+178.158.80.137 3 30 285091 20111114205437
+178.158.104.81 3 12 1214823 20111107114746
+178.158.80.230 2 7 861676 20111109135943
+94.158.33.94 2 6 0 20111108225328
+94.158.35.70 2 8 612052 20111109201013
+94.158.33.155 2 7 861676 20111108094431
+188.190.213.40 2 7 861676 20111108094317
+178.158.72.79 2 7 0 20111108185156
+178.158.64.3 1 4 404941 20111107170808
+109.167.97.243 0 2 1901 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20111107 100 142 4091243 5
+20111108 52 158 3948523 8
+20111109 7 24 1473728 3
+20111110 76 1009 1239569 2
+20111111 28 413 670664 2
+20111113 79 856 2051781 4
+20111114 61 181 2206042 4
+20111115 304 1626 8056499 3
+20111119 129 129 163817 1
+20111120 105 105 88210 1
+20111121 2 2 2838 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 9
+5mn-15mn 3
+15mn-30mn 1
+2mn-5mn 2
+30s-2mn 3
+0s-30s 14
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 30
+/ 97 765071 23 10
+/dummy.php 96 1320292 1 1
+/fiz.php 88 2096251 2 3
+/index.php 82 1510992 0 4
+/update_data.php 80 151069 0 1
+/php.php 73 28678 0 0
+/login.php 50 28185 0 0
+/about.php 47 736282 0 0
+/jur.php 47 765008 0 1
+/lug_sud.php 46 1569344 0 1
+/contacts.php 35 561587 1 1
+/private.php 31 424651 0 0
+/del_data.php 23 38416 0 0
+/update.php 19 4654 1 1
+/executive.php 17 325879 0 0
+/procur.php 15 711984 0 0
+/red.html 14 9408 4 4
+/sql.php/ 13 9352 1 0
+/mvs.php 13 256951 0 0
+/blue.html 10 8211 0 7
+/dummy.html 8 30109 0 0
+/login.php/login.php 7 7183 0 0
+/check.php 7 2216 0 0
+/save_form.php 6 1052 0 0
+/view_data.php 6 9094 0 0
+/register.php 2 895 0 0
+/primer.php 5 43761 1 0
+/sql.php/function.mysql-connect 2 1606 0 0
+/login.php/ 2 1452 0 0
+/login.php/registr.php 2 2462 0 0
+END_SIDER

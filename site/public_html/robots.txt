@@ -1,0 +1,17 @@
+User-Agent: *
+Disallow: /cgi-bin/
+Disallow: /lib/
+Disallow: /cgi/
+Disallow: /images/
+Disallow: /.smileys/
+Disallow: /comments/
+Disallow: /css/
+Disallow: /develop/
+Disallow: /fonts/
+Disallow: /docs/
+Disallow: /phprusearch/
+Disallow: apanel01.php
+Disallow: report.php
+Disallow: online.php
+Disallow: semenovBU.djvu
+Disallow: map3.gif

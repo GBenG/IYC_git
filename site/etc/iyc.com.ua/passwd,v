@@ -1,0 +1,53 @@
+head	1.3;
+access;
+symbols;
+locks
+	u5088:1.3; strict;
+comment	@# @;
+
+
+1.3
+date	2012.01.01.18.35.06;	author u5088;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2011.11.06.20.42.34;	author u5088;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2011.11.06.20.42.34;	author u5088;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@a0 1
+info:x:2422:2422::/home/u5088/mail/iyc.com.ua/info:/usr/local/cpanel/bin/noshell
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+@

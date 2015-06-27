@@ -1,0 +1,3 @@
+Disk quotas for user u5088 (uid 2422): 
+     Filesystem  blocks   quota   limit   grace   files   quota   limit   grace
+     /dev/simfs    8680  256000  256000            1373       0       0        

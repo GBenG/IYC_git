@@ -1,0 +1,44 @@
+body, html{padding:0px; margin:0px;}
+.middlemenu{background-repeat:repeat-x; text-align:center; color: #F5F5F5; font-family:Tahoma; font-size:14px; font-weight:bold;  text-decoration:none}
+.middlemenu a{margin-left:10px; margin-right:10px; color: #F5F5F5; font-family:Tahoma; font-size:14px; font-weight:bold;  text-decoration:none}
+.middlemenu a:hover{text-decoration:underline}
+
+.content{ font-family:Tahoma; font-size:12px; color: #4D4D4D; padding-left:20px; padding-right:20px; padding-top:35px; padding-bottom:0px; vertical-align:top;}
+.content, .content a  {color: #4D4D4D;}
+.content * {font-family:Tahoma; font-size:12px;}
+.topmenu{ position:absolute; left:20px; top:55px;}
+.topmenu a{margin-left:10px; margin-right:10px; color:#FFFFFF; font-family:Tahoma; font-size:11px; font-weight:bold; text-decoration:none; color: #F5F5F5}
+
+.leftmenuitem{width:190px; margin:5px;}
+.leftmenuitem *{font-size:12px; color:#890C0C; font-family:Arial; font-weight:bold}
+.leftmenuitem {border-bottom:1px  #999999 dotted; padding-bottom:6px;}
+.leftmenuitem a{text-decoration:none}
+.leftmenuitem a:hover{text-decoration:underline}
+.leftmenuitem a.selectid{font-weight:bold;text-decoration:none}
+.leftmenuitem li a.selectid{ color: #FF3300;text-decoration:none; font-weight:normal}
+
+.block{width:190px; margin:5px;}
+.block div.item{margin-bottom:15px;}
+.block span.date{font-weight:bold; font-size:10px; font-family:Tahoma;color:#890C0C;}
+.block a.title{font-weight:bold;font-size:10px; font-family:Tahoma}
+.block *{font-size:11px; font-family:Arial; color: #666666}
+.block a{font-size:12px; color:#890C0C; font-family:Arial}
+.block div.anons{margin-top:5px; margin-bottom:5px; line-height:11px;}
+
+.lblock_red {background-color:#FFD9D9; width:500px;}
+.lblock_grn {background-color:#D9FFD9; width:500px;}
+
+.telname{
+	position:absolute;
+	left:300px;
+	top:50px;
+	width: 261px;
+}
+.compname{font-size:20px; font-family:Arial; color:#633e2b;font-weight:bold}
+.telefon{color:#8c2313;font-size:20px; font-family:Arial; text-align:left;font-weight:bold}
+.menu{color:#ffffff;font-size:16px; font-family:Arial; text-align:left;font-weight:bold}
+
+textarea{height:100px;}
+
+.debug{	position:absolute;	left:500px;	top:400px;}
+.adress{font-family:Tahoma; font-size:12px; color: #354392; padding-left:10px; vertical-align: middle; font-weight:bold}

@@ -1,0 +1,2 @@
+--- !!perl/ref 
+=: "/* whmaddon : o */\n/* bodylink : o */\n/* whmaddon : pf */\n/* bodylink : pf */\n/* whmaddon : m */\n/* bodylink : m */\n/* whmaddon : l */\n/* bodylink : l */\n/* whmaddon : f */\n/* bodylink : f */\n/* whmaddon : d */\n/* bodylink : d */\n/* whmaddon : b */\n/* bodylink : b */\n/* whmaddon : sc */\n/* bodylink : sc */\n/* whmaddon : p */\n#icon-whmaddon_rvsitebuilder { background:transparent url(/frontend/rvskin/themeimages/whmaddon_rvsitebuilder.gif) no-repeat; height:36px; width:36px;} \n/* bodylink : p */\n/* whmaddon : a */\n/* bodylink : a */\n"
