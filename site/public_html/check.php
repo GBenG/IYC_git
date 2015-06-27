@@ -2,13 +2,13 @@
 // Скрипт проверки
 
 # Соединямся с БД
-mysql_connect("localhost", "u158376855_sps", "u5088_sps");
-mysql_select_db("u158376855_iyc");
+$link = mysqli_connect("localhost", "u158376855_sps", "u5088_sps") or die( mysql_error() );
+mysqli_select_db($link, "u158376855_iyc");
 
 if (isset($_COOKIE['id']) and isset($_COOKIE['hash']))
 {   
-    $query = mysql_query("SELECT *,INET_NTOA(user_ip) AS user_ip FROM admins WHERE user_id = '".intval($_COOKIE['id'])."' LIMIT 1");
-    $userdata = mysql_fetch_assoc($query);
+    $query = mysqli_query($link,"SELECT *,INET_NTOA(user_ip) AS user_ip FROM admins WHERE user_id = '".intval($_COOKIE['id'])."' LIMIT 1");
+    $userdata = mysqli_fetch_assoc($query);
 
     if(($userdata['user_hash'] !== $_COOKIE['hash']) or ($userdata['user_id'] !== $_COOKIE['id'])
  or (($userdata['user_ip'] !== $_SERVER['REMOTE_ADDR'])  and ($userdata['user_ip'] !== "0")))

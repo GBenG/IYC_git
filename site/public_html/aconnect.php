@@ -14,14 +14,14 @@ function generateCode($length=6) {
 
 
 # Соединямся с БД
-mysql_connect("localhost", "u158376855_sps", "u5088_sps");
-mysql_select_db("u158376855_iyc");
+$link = mysqli_connect("localhost", "u158376855_sps", "u5088_sps") or die( mysql_error() );
+mysqli_select_db($link, "u158376855_iyc");
 
 if(isset($_POST['submit']))
 {
     # Вытаскиваем из БД запись, у которой логин равняеться введенному
-    $query = mysql_query("SELECT user_id, user_password FROM admins WHERE user_login='".mysql_real_escape_string($_POST['login'])."' LIMIT 1");
-    $data = mysql_fetch_assoc($query);
+    $query = mysqli_query($link,"SELECT user_id, user_password FROM admins WHERE user_login='".mysqli_real_escape_string($link, $_POST['login'])."' LIMIT 1");
+    $data = mysqli_fetch_assoc($query);
     
     # Сравниваем пароли
     if($data['user_password'] === md5(md5($_POST['password'])))
@@ -38,7 +38,7 @@ if(isset($_POST['submit']))
         }
         
         # Записываем в БД новый хеш авторизации и IP
-        mysql_query("UPDATE admins SET user_hash='".$hash."' ".$insip." WHERE user_id='".$data['user_id']."'");
+        mysqli_query($link, "UPDATE admins SET user_hash='".$hash."' ".$insip." WHERE user_id='".$data['user_id']."'");
         
         # Ставим куки
         setcookie("id", $data['user_id'], time()+60*60*24*30);

@@ -3,8 +3,8 @@
 // Страница регистрации нового пользователя
 
 # Соединямся с БД
-mysql_connect("localhost", "u158376855_sps", "u5088_sps");
-mysql_select_db("u158376855_iyc");
+$link = mysqli_connect("localhost", "u158376855_sps", "u5088_sps") or die( mysql_error() );
+mysqli_select_db($link, "u158376855_iyc");
 
 if (isset($_COOKIE['id']) and isset($_COOKIE['hash']))
 {     
@@ -40,7 +40,7 @@ if(isset($_POST['submit']))
     }
     
     # проверяем, не сущестует ли пользователя с таким именем
-    $query = mysql_query("SELECT COUNT(user_id) FROM users WHERE user_login='".mysql_real_escape_string($_POST['login'])."'");
+    $query = mysqli_query($link, "SELECT COUNT(user_id) FROM users WHERE user_login='".mysqli_real_escape_string($link, $_POST['login'])."'");
     if(mysql_result($query, 0) > 0)
     {
       //  $err[] = "Пользователь с таким логином уже существует в базе данных";
@@ -61,7 +61,7 @@ if(isset($_POST['submit']))
         # Убераем лишние пробелы и делаем двойное шифрование
         $password = md5(md5(trim($_POST['password'])));
         
-        mysql_query("INSERT INTO users SET user_login='".$login."', user_password='".$password."', surname='".$surname."', name='".$name."', fname='".$fname."', dnumber='".$dnumber."', situation='".$situation."'");
+        mysqli_query($link, "INSERT INTO users SET user_login='".$login."', user_password='".$password."', surname='".$surname."', name='".$name."', fname='".$fname."', dnumber='".$dnumber."', situation='".$situation."'");
         header("Location: newok.html"); exit();
     }
     else
