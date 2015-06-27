@@ -3,8 +3,8 @@
 // Страница регистрации нового пользователя
 
 # Соединямся с БД
-mysql_connect("localhost", "u5088_sps", "u5088_sps");
-mysql_select_db("u5088_contracts");
+mysql_connect("localhost", "u158376855_sps", "u5088_sps");
+mysql_select_db("u158376855_iyc");
 
 
 if(isset($_POST['submit_q']))
