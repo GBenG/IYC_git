@@ -12,6 +12,7 @@ Disallow: /docs/
 Disallow: /phprusearch/
 Disallow: apanel01.php
 Disallow: report.php
+Disallow: register.php
 Disallow: online.php
 Disallow: semenovBU.djvu
 Disallow: map3.gif
